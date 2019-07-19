@@ -1,0 +1,11 @@
+.item{
+    border: 1px solid #a5a5a9;
+    width: 50%;
+    padding: 10px;
+}
+
+.item-btn-more{
+    display: block;
+    text-align: right;
+}
+

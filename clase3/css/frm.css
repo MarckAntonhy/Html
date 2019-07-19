@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    display: block;
+}
+
+.titulo{
+    background-color: rgba(47, 52, 57, 0.8);
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    color: white;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.texto{
+    border-radius: 5px;
+    text-align: 16px;
+    border: 1 solid;
+    padding: 4px;
+}
+
+.contenedor{
+    display: flex;
+    height: calc(100vh - 60px) ;
+}
+
+.formulario{
+    margin: auto;
+}
