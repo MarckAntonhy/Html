@@ -4,26 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Practica en CSS</title>
-    <link rel="stylesheet" href="../clase3/css/style.css">
+    <title>Ejemplo 1</title>
+    <link rel="stylesheet" href="style.css">
+</style>
 </head>
 <body>
-    
-    
-    <h1 id="titulo">Clase de CSS</h1>
-    
-    
-    
-    <h3 class="subtitle">Por que Aprender CSS ...!</h3>
+    <header id="cabecera">
+        <h2>Curso de CSS - 3</h2>
+    </header>
+    <section class="margenes">
+        <h3> Enlaces: </h3>
 
-    <div class="img-banner">
-        <img src="../img/fondo-html.png">
-    </div>
-    
-    
+        <div class="enlaces">
+            <a href="page.html">
+                <p>Pagina en el mismo proyecto</p>
+            </a>
+            <a href="https://placeholder.com/">
+                    <p>Enlace Externo</p>
+            </a>
+            <a href="https://i.blogs.es/2b7c9a/moon-colors/450_1000.jpg">Enlace Con Archivo</a>
+        </div>
 
-    <p class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolor eius accusamus animi aspernatur maiores, asperiores minima. Eius eligendi error quaerat. Aperiam illum, delectus eos ullam provident labore cumque in!</p>
+    </section>
 
-    <input type="submit" value="Ver Mas" class="enviar">
-</body> 
+    <section class="content-bonotes" >
+        <button type="submit" class="boton1 boton">Link 1</button>
+        <button type="submit" class="boton2 boton">Link 2</button>
+        <button type="submit" class="boton3 boton">Link 3</button>
+        <button type="submit" class="boton4 boton">Link 4</button>
+    </section>
+
+
+    
+        <form action="" class="formulario">
+            <label for="" class="titulo-frm">Enviar Mensaje</label>
+
+            <label for="">Nombres *</label>
+            <input type="text" name="" id="" class="txt">
+
+            <label for="">Telefono / Celular *</label>
+            <input type="text" name="" id=""  class="txt">
+
+            <label for="">Correo Electronico *</label>
+            <input type="text" name="" id="" class="txt">
+
+            <label for="">Mensaje *</label>
+            <input type="text" name="" id="" class="txt">
+            
+            <input type="submit" value="Enviar Mensaje" class="btnEnviar">
+        </form>
+    
+</body>
 </html>
