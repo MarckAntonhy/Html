@@ -1,0 +1,259 @@
+@font-face{
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/roboto/Roboto-Regular.ttf) format('truetype')
+}
+
+@font-face{
+    font-family: "roboto-light";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/roboto/Roboto-Light.ttf) format('truetype')
+}
+
+@font-face{
+    font-family: "roboto-bold";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/roboto/Roboto-Bold.ttf) format('truetype')
+}
+
+@import 'tabla.css';
+
+body{
+    font-family: "roboto";
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+
+/* Display: flex -> Convierte en linea los objetos */
+#block-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.width-general{
+    max-width:  900px;
+    margin: 0 auto;
+}
+
+.nav-main{
+    display: flex;
+    align-items: stretch;
+}
+
+.nav-main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-main ul li{
+    display: inline-block;
+    padding: 22px 20px;
+}
+
+.nav-main ul li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid red; 
+}
+
+
+.nav-main ul li a{
+    text-decoration: none;
+}
+
+/* Botones */
+.content-btn{
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 30px; 
+    margin-top: 20px; 
+}
+
+.btn{
+    padding: 10px 10px;
+    border: none;
+    font-size: 12px;
+    width: 150px;
+    margin: 0px 10px 0 10px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.btn1{
+    background-color: #086F6F;
+    color: white;
+}
+
+.btn2{
+    border: 1px solid #085E8E;
+    color: rgb(96, 165, 202);
+}
+
+.btn3{
+    background-color: #E1E10C;
+    color: white;
+}
+
+.btn4{
+    border: 1px solid red;
+    color: red  ;
+}
+
+/* Barra Lateral */
+.menu-lateral ul{
+    list-style: none;
+}
+
+.menu-lateral{
+    display: flex;
+}
+
+.contenedor-lista{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral a{
+    text-decoration: none;
+}
+
+.hijo{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: initial;
+}
+
+.hijo:hover{
+    background-color:  #F3A779;
+}
+
+.padre{
+    position: relative;
+}
+
+.padre-a{
+    background-color: #DFDED6;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    border-bottom: 1px dashed orange;
+    color: #DA5416;
+    font-weight: bold;
+}
+
+.hijo{
+    border-bottom: 1px dashed orange;
+}
+
+.lista-hijos{
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.padre:hover{
+    cursor: pointer;
+}
+
+.padre:hover > .lista-hijos{
+    display: block;
+}
+
+.padre:hover > .hijo{
+    display: inline-block;
+    
+}
+
+span{
+    position: absolute;
+    right: 10px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.fila1{
+    background-color: #CB6120;
+    color: white;
+}
+
+.fila2{
+    background-color:#F4F4F4;
+}
+
+.fila3{
+    background-color: #FAEBE2;
+}
+
+.fila4{
+    background-color:#F4F4F4;
+}
+
+.fila5{
+    background-color: #FAEBE2;
+}
+
+table td,th{
+    padding: 10px ;
+    text-align: center;
+} 
+
+table button{
+    padding: 8px 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #CB6120;
+    color: white;
+}
+
+
+table button:hover{
+    cursor: pointer;
+    padding: 10px 12px;
+}
+
+.cuerpo-contenedor{
+    display: flex;
+    margin-top: 20px; 
+}
+
+.lado-right{
+    flex: 1;
+    margin: 0px 20px 0 20px;
+}
