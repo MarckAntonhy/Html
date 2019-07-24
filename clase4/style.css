@@ -300,19 +300,24 @@ footer input{
 /* Responsive */
 
 @media screen and (max-width: 700px){
+
+    header h3{
+        border-bottom: 1px solid black;
+    }
+
     .width-general{
         padding: 0 20px 0 20px;
     }
 
     .subcontent-btn{
-        width: 300px;
+        width: 100%;
         margin: auto;
     }
 
     .btn{
-        margin: 0 0 7px 0;
-        padding: 20px;
-        width: 300px;
+        display: block;
+        width: 40%;
+        margin: 0 auto 10px auto;
     }
 
     .btn4{
@@ -326,6 +331,11 @@ footer input{
     .contenedor-lista,.padre-a{
         width: 100%;
     }
+
+    .nav-main ul li{
+        display: block;
+    }
+
 
     .lado-left{
         margin-bottom: 20px;
@@ -350,4 +360,21 @@ footer input{
         text-align: center;
         display: block;
     }
+
+    .lado-right{
+        width: 100%;
+        overflow-x: scroll;
+        margin-left: 0; 
+    }
+    .footer-item{
+        display: block;
+        width: 100%;
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+        align-content: center;
+    }
+
 }

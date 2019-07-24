@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    width: 100%;
+    color: #0070C0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cabecera{
+    padding: 20px 0 20px 80px; 
+}
+
+.container{
+    width: 100%;
+    background-color: #F8F9FA;
+}
+
+.son{    
+    width: calc(100% / 4.8);
+    display: inline-block;
+    padding: 20px;
+}
+
+.son h4{
+    margin: 0;
+    padding: 0;
+}
+
+.son p{
+    margin-top: 5px;
+}
+
+.img-size{
+    font-size: 20px;
+}
+
+.img-green{
+    color: #20C997;
+}
+
+.img-blue{
+    color:  rgb(51, 154, 240);
+}
+
+.icon{
+    margin-bottom: 10px;    
+}
+
