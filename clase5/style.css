@@ -1,9 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
 }
-
-
 
 header{
     width: 100%;
@@ -19,10 +20,12 @@ header{
 .container{
     width: 100%;
     background-color: #F8F9FA;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .son{    
-    width: calc(100% / 4.8);
+    width: calc(100% / 4);
     display: inline-block;
     padding: 20px;
 }
@@ -52,3 +55,22 @@ header{
     margin-bottom: 10px;    
 }
 
+
+@media screen and (max-width: 800px){
+    .son{
+        width:  calc(100% / 3);
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .son{
+        width:  calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .son{
+        width: 100%;
+    }
+}
