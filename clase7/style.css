@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.father{
+    border: 4px solid red;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.son{
+    background: yellowgreen;
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    /* flex-grow: 4; Aumenta el tamaño del elemento para que quede justificado */
+}
+
+.son2{
+    /* Reduce el tamaño del elemento para que todos entren en un contenedor */
+    flex-shrink: 3; 
+}
+
+.son1{
+    flex-shrink: 1;
+}

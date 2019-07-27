@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 3px 0;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.content{
+    background-color: #FAFAFA;
+}
+
+/* Cabecera */
+.header{
+    padding: 50px;
+}
+
+/* Items */
+.items{
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: calc(100% / 6);
+    background: blue;
+    padding: 20px;
+    background: none;
+}
+
+.item-white{
+    background-color: white;
+}
+
+.transparente{
+    background-color: white;
+}
+
+.item-footer{
+    display: block;
+}
+
