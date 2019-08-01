@@ -1,0 +1,55 @@
+.father{
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.box:hover{
+    cursor: pointer;
+    border: 2px solid #12EDEB; 
+    z-index: 3;
+}
+
+.box:active{
+    background: #12EDEB; 
+}
+
+
+
+.red{
+    background: red;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.red:hover #paleta{
+    display: block;
+    background: black;
+}
+
+.yellow{
+    background: yellow;
+    z-index: 2;
+    left: 100px;
+    top: 100px;
+}
+
+.green{
+    background: green;
+    z-index: 3;
+}
+
+
+#paleta{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
