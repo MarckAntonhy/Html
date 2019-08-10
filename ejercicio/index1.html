@@ -9,50 +9,54 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <section class="container">
-        <h3>Registro</h3>
-        <section class="object">
-            <span class="s-icon">
-                <i class="fas fa-user icon"></i>
-            </span>
-        
-            <input type="text" name="" id="" placeholder="Nombre" class="input">
-        </section>
-        <section class="object">
+    <form action="" name="registry" id="registry" onsubmit="procesar()">
+        <section class="container">
+            <h3>Registro</h3>
+            <section class="object">
                 <span class="s-icon">
-                    <i class="fas fa-address-book icon"></i>
+                    <i class="fas fa-user icon"></i>
                 </span>
-                <input type="text" name="" id="" placeholder="DNI" class="input">
-        </section>
-        <section class="object">
-                <span class="s-icon">
-                        <i class="fas fa-home icon icon"></i>
+            
+                <input type="text" name="txtName" id="" placeholder="Nombre" class="input" onblur="verificacion(this)">
+            </section>
+            <section class="object">
+                    <span class="s-icon">
+                        <i class="fas fa-address-book icon"></i>
                     </span>
-                
-                <input type="text" name="" id="" placeholder="Direccion" class="input">
-        </section>
-        <section class="object">
-                <span class="s-icon">
-                    <i class="fas fa-mobile-alt icon"></i>
-                </span>
-                <input type="text" name="" id="" placeholder="Telefono" class="input">
-        </section>
-        <section class="object">
-                <span class="s-icon">
-                    <i class="fas fa-envelope icon"></i>
+                    <input type="text" name="txtDni" id="" placeholder="DNI" class="input" >
+            </section>
+            <section class="object">
+                    <span class="s-icon">
+                            <i class="fas fa-home icon icon"></i>
+                        </span>
                     
+                    <input type="text" name="txtAddress" id="" placeholder="Las lomas" class="input" onmouseover="pintar(this,'blue')"
+                    onmouseout="this.style.borderColor='initial'">
+            </section>
+            <section class="object">
+                    <span class="s-icon">
+                        <i class="fas fa-mobile-alt icon"></i>
                     </span>
-                <input type="text" name="" id="" placeholder="Correo Electronico" class="input">
-        </section>
-        <section class="object area">
-            <textarea name="" id="" cols="30" rows="10" class="text-area" placeholder="Ingrese tus cursos de interés ..."></textarea>
+                    <input type="text" name="txtPhone" id="" placeholder="987654321" class="input">
+            </section>
+            <section class="object">
+                    <span class="s-icon">
+                        <i class="fas fa-envelope icon"></i>
+                        
+                        </span>
+                    <input type="text" name="txtMail" id="" placeholder="emial@gmail.com" class="input">
+            </section>
+            <section class="object area">
+                <textarea name="" id="" cols="30" rows="10" class="text-area" placeholder="Ingrese tus cursos de interés ..."></textarea>
+            </section>
+    
+            <section class="footer">
+                <input type="reset" value="Cancelar" class="btn">
+                <input type="submit" value="Enviar" class="btn red">
+            </section>
         </section>
 
-        <section class="footer">
-            <input type="reset" value="Cancelar" class="btn">
-            <input type="submit" value="Enviar" class="btn red">
-        </section>
-    </section>
+        <script src="init.js"></script>
+    </form>
 </body>
 </html>
