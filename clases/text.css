@@ -1,0 +1,31 @@
+.div1{
+    width: 180px;
+    border: 1px solid black;
+    /* Oculta el texto que sale del contenedor */
+    overflow: hidden;
+}
+
+
+.div2{
+    width: 180px;
+    border: 1px solid black;
+    /* El texto lo manda hacia abajo */
+    word-wrap: break-word;
+}
+
+.div1:hover{
+    cursor: pointer;
+    width: 180px;
+    border: 1px solid black;
+    /* Muestra el texto que sale del contenedor */
+    overflow: visible;
+    transition: all 2s ease 1s;
+}
+
+/* Justifica el texto - se le especifica a la p */
+.div3 p{
+    width: 180px;
+    border: 1px solid black;
+    /* Oculta el texto que sale del contenedor */
+    word-break: break-all;
+}

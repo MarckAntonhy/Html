@@ -46,3 +46,9 @@ function verificacion(element){
 
     element.style.borderColor = color;
 }
+
+
+document.getElementById('txtDni').addEventListener("click", procesar);
+
+var frm = document.forms.registry;
+

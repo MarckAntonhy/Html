@@ -1,0 +1,33 @@
+.backgraund{
+    background-image: url(../img/git.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px; 
+}
+
+.backgraund1{
+    /* url - (positionx - positiony)     - repet */
+    background: url(../img/logo.svg) center bottom no-repeat;  
+    padding: 50px;
+    height: 200px;
+    background-size: cover;
+}
+
+
+.backgraund2{
+    background: url(../img/fondo-html.png) right center no-repeat,
+                url(../img/banner-kali.jpg) left center no-repeat;  
+    padding: 150px;
+    /*  le especifico tamaña a las imagenes de fondo */
+    background-size: 50% 100%; 
+}
+
+.backgraund3{
+    background: url(../img/fondo-html.png) center center no-repeat;
+    height: 200px;
+    width: 20%;
+    border: 10px solid #00000080;
+    background-origin: border-box;
+    background-size: cover; 
+}

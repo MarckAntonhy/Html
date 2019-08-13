@@ -1,0 +1,94 @@
+/* Generales */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.text-special{
+    font-family: 'Great Vibes', cursive;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.letter-common{
+    color: gray;
+}
+
+.margin{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* ----------------------- */
+
+/* header */
+header{
+    background: black;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.title p{
+    margin: 0;
+    font-size: 35px;
+}
+
+.list-category ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.list-category ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Item */
+.items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-category{
+    display: flex;
+    color: #fff;
+    width: 50%;
+}
+
+.item-category p{
+    margin: 0;
+}
+
+.item-logo{
+    border-radius: 50%;
+}
+
+
+.item-description{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.item-description h5{
+    font-size: 15px;
+}
+
+.item-price{
+    display: flex;
+    align-items: center;
+}
+
